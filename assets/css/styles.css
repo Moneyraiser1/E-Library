@@ -1,0 +1,40 @@
+.autocomplete-container {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 40px auto;
+      width: 100%;
+      max-width: 500px;
+      position: relative;
+      z-index: 999;
+    }
+
+    #address {
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    #suggestions {
+      background: white;
+      border: 1px solid #ccc;
+      border-top: none;
+      max-height: 200px;
+      overflow-y: auto;
+      position: absolute;
+      top: 75px;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    #suggestions div {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    #suggestions div:hover {
+      background-color: #f0f0f0;
+    }
