@@ -143,12 +143,12 @@ class Users {
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'salamsamiat45@gmail.com';
-            $mail->Password   = 'xmxz dzjl vmkj lkvf';
-            $mail->SMTPSecure = 'tls';
+           // $mail->Username   = 'Insert your username here preferably your gmail';
+           // $mail->Password   = 'insert your gmail password here';
+            /$mail->SMTPSecure = 'tls';
             $mail->Port       = 587;
 
-            $mail->setFrom('salamsamiat45@gmail.com', 'Library System');
+            //$mail->setFrom('insert your gmail here', 'Library System');
             $mail->addAddress($email, $fname);
 
             $mail->isHTML(true);
