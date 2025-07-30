@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 28, 2025 at 05:45 PM
+-- Generation Time: Jul 30, 2025 at 07:52 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -143,8 +143,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `fname`, `lname`, `username`, `password`, `phone`, `email`, `role_as`, `verification_token`, `is_verified`, `created_at`, `address`) VALUES
-(1, 'Abdulquadri', 'Abdulsalam', 'Abdulsalam123', '$2y$10$S090cxs67R9JWY/EZKAAi.vHwPfo60Fs/Y8dBpPHN7Az1o4Em2xs2', '07082648913', 'moneyraiser3@gmail.com', 'admin', 'fe39dcf1d476be3fe6a4ed0854b1bdb09efa5966c6823eac39a63a915af3d8b6', 1, '2025-07-24 08:01:38', '28 Aina street off johnson busstop surulere lagos'),
-(2, 'Reginald', 'Abdulsalam', 'Reginald2', '$2y$10$XbxieBHE1wjSwMI0a4rU7efHvmapfDCKIt4pe6G4tYZunhnOKUDJK', '08127728103', 'officialsouthamptonacademy2@gmail.com', 'user', '5d52eb4e08e554eab5282d4b08da188446c8ca18d8f58c5479753bfd60735d4e', 1, '2025-07-24 08:28:20', '29 Aina street off johnson busstop surulere lagos');
+(1, 'Abdulquadri', 'Abdulsalam', 'Abdulsalam123', '$2y$10$S090cxs67R9JWY/EZKAAi.vHwPfo60Fs/Y8dBpPHN7Az1o4Em2xs2', '07082648913', 'moneyraiser43@gmail.com', 'admin', 'fe39dcf1d476be3fe6a4ed0854b1bdb09efa5966c6823eac39a63a915af3d8b6', 1, '2025-07-24 08:01:38', '28 Aina street off johnson busstop surulere lagos'),
+(2, 'Reginald', 'Abdulsalam', 'Reginald2', '$2y$10$XbxieBHE1wjSwMI0a4rU7efHvmapfDCKIt4pe6G4tYZunhnOKUDJK', '08127728103', 'officialsouthamptonacademy@gmail.com', 'user', '5d52eb4e08e554eab5282d4b08da188446c8ca18d8f58c5479753bfd60735d4e', 1, '2025-07-24 08:28:20', '29 Aina street off johnson busstop surulere lagos'),
+(3, 'Tolu', 'Dixon', 'Money_raiser1', '$2y$10$gA0BRU.buS4SAyAWQ0gM0Or4UcnsBaQz3DarWCnHCKYZ8brPI1F6i', '08127728104', 'salamsamiat45@gmail.com', 'user', '7ec85c7750293439043a2e3781057f938023594f2fd0b8b30376fecb7d96a482', 0, '2025-07-30 10:47:40', '28 Aina street off johnson busstop surulere lagos');
 
 --
 -- Indexes for dumped tables
@@ -215,7 +216,7 @@ ALTER TABLE `settings`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
